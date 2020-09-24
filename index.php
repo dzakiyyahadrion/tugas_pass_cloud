@@ -160,7 +160,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#facilities">FACILITIES CAMPUS</a></li>
+        <li><a href="#facilities">CAMPUS FACILITIES</a></li>
         <li><a href="#now">BUT NOW</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -249,6 +249,7 @@
         <p>Cafe Cangkir adalah tempat nongkrong mahasiswa UIN sambil mengisi perut yang lapar di sela-sela perkuliahan. Diberi nama Cafe Cangkir karna bangunan yang berbentuk cangkir.</p>
       </div>
     </div>
+    <br>
     <div class="col-sm-4">
       <p class="text-center"><strong>Ruang Kelas</strong></p><br>
       <a href="#demo4" data-toggle="collapse">
