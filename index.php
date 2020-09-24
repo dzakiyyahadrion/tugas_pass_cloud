@@ -92,12 +92,6 @@
   }
   .nav-tabs li a {
     color: #777;
-  }
-  #googleMap {
-    width: 100%;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
   }  
   .navbar {
     font-family: Montserrat, sans-serif;
@@ -166,7 +160,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
+        <li><a href="#facilities">FACILITIES CAMPUS</a></li>
+        <li><a href="#now">BUT NOW</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
@@ -220,11 +215,11 @@
     </a>
 </div>
 
-<!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
+<!-- Container (Facilities) -->
+<div id="facilities" class="container text-center">
   <h3>UIN Syarif Hidayatullah Jakarta</h3>
-  <p><em>We love music!</em></p>
-  <p>Terletak di Kota Tanggerang Selatan. Awalnya merupakan Akademi Dinas Departemen Agama (ADIA) yang berdiri pada tahun 1957.Hingga pada tahun 2002 resmi menjadi UIN Syarif Hidayatullah Jakarta.</p>
+  <p>Terletak di Kota Tanggerang Selatan. Awalnya merupakan Akademi Dinas Departemen Agama (ADIA) yang berdiri pada tahun 1957. Hingga pada tahun 2002 resmi menjadi UIN Syarif Hidayatullah Jakarta.</p>
+  <p><em>Beberapa Fasilitas di UIN Jakarta</em></p>
   <br>
   <div class="row">
     <div class="col-sm-4">
@@ -233,9 +228,7 @@
         <img src="auditorium.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
-        <p>Guitarist and Lead Vocalist</p>
-        <p>Loves long walks on the beach</p>
-        <p>Member since 1988</p>
+        <p>Audutorium kebanggan UIN Jakarta. Terletak paling depan didekat gerbang utama. Menjadi tempat dilaksanakannya acara-acara penting mulai dari acara kemahasiswaan hingga acara akademik seperti acara wisuda. Semoga kita semua dapat diwisuda di sana setelah pandemi ini berlalu.</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -244,9 +237,7 @@
         <img src="perpustakaan.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo2" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
+        <p>Perpustakaan Utama UIN Jakarta yang menjadi tempat berkumpul mahasiswa. Fungsi utamanya sebagai tempat sumber buku mahasiswa UIN Jakarta. Fungsi lainnya, bisa jadi tempat belajar, mengerjakan tugas, bahkan skripsian</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -255,9 +246,7 @@
         <img src="cafe cangkir.jfif" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
-        <p>Bass player</p>
-        <p>Loves math</p>
-        <p>Member since 2005</p>
+        <p>Cafe Cangkir adalah tempat nongkrong mahasiswa UIN sambil mengisi perut yang lapar di sela-sela perkuliahan. Diberi nama Cafe Cangkir karna bangunan yang berbentuk cangkir.</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -266,9 +255,7 @@
         <img src="kelas.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo4" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
+        <p>Ruang Kelas tempat belajar setiap ada mata kuliah setiap harinya. sama seperti ruang kelas lainnya, ruang kelas di uin juga dilengkapi kursi, AC, LCD/Proyektor dan lainnya. Ga jauh beda sama ruang kelas lainnya.</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -277,9 +264,7 @@
         <img src="gazebo.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo5" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
+        <p>Taman yang ada disekitar UIN Jakarta biasa dimanfaat mahasiswa untuk berkumpul dan kegiatan lainnya sambil ditemani oleh hembusan angin. Dibeberapa fakultas terdapat gazebo-gazebo yang membuat mahasiswa makin betah berlama-lama berada dikampus.</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -288,12 +273,18 @@
         <img src="plt.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo6" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
+        <p>Pusat Laboratorium Terpadu adalah Lab yang banyak digunakan oleh mahasiswa dari Fakultas Sains dan Teknolog. Dilengkapi dengan fasilitas yang lengkap dalam mendukung perkuliahan.</p>
       </div>
     </div>
   </div>
+</div>
+
+<!-- Container (But Now) -->
+<div id="now" class="container text-center">
+  <h3>My Campus Now</h3>
+  <p>Sejak pandemi COVID-19 merebak semua fasilitas yang ada di UIN tidak bisa lagi dimanfaat. Karna, semua kegiatan perkuliahan dilakukan dari jarak jauh sekara daring.</p>
+      <img src="auditorium.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+   <p>Sekarang kegiatan perkuliahan saya semua dilakukan disini saja. Hanya didepan Laptop seharian. Semoga pandemi ini cepat berlalu.</p>
 </div>
 
 <!-- Container (Contact Section) -->
@@ -303,10 +294,9 @@
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span>Sumatra Barat, Indonesia</p>
       <p><span class="glyphicon glyphicon-phone"></span>Phone: +6285156106964</p>
-      <p><span class="glyphicon glyphicon-instagram"></span>IG: dzakiyyah_adrion</p>
+      <p><span class="glyphicon glyphicon-ig"></span>IG: <a href="https://www.instagram.com/dzakiyyah_adrion/" data-toggle="tooltip"  title="Visit w3schools">dzakiyyah_adrion</a></p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: annisadzakiyyah.hanifah18@mhs.uinjkt.ac.id </p>
     </div>
-   
   </div>
 </div>
 
@@ -316,7 +306,6 @@
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
 </footer>
 
 <script>
