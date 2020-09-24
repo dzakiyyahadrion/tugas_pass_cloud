@@ -188,7 +188,7 @@
       </div>
 
       <div class="item">
-        <img src="uin-jakarta2.jpg" alt="Chicago" width="1200" height="700">
+        <img src="uin-jakarta4.jpg" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
           <h3>My Campus</h3>
           <p>UIN Syarif Hidayatullah Jakarta</p>
@@ -249,7 +249,7 @@
         <p>Cafe Cangkir adalah tempat nongkrong mahasiswa UIN sambil mengisi perut yang lapar di sela-sela perkuliahan. Diberi nama Cafe Cangkir karna bangunan yang berbentuk cangkir.</p>
       </div>
     </div>
-    <br>
+
     <div class="col-sm-4">
       <p class="text-center"><strong>Ruang Kelas</strong></p><br>
       <a href="#demo4" data-toggle="collapse">
