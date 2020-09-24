@@ -187,24 +187,24 @@
       <div class="item active">
         <img src="uin-jakarta.jpg" alt="UIN JKT" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>UIN Syarif Hidayatullah Jakarta</h3>
-          <p>Kampus yang terletak di Tanggerang Selatan</p>
+          <h3>My Campus</h3>
+          <p>UIN Syarif Hidayatullah Jakarta</p>
         </div>      
       </div>
 
       <div class="item">
         <img src="uin-jakarta2.jpg" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>UIN Syarif Hidayatullah Jakarta</h3>
-          <p>Awalnya merupakan Akademi Dinas Departemen Agama (ADIA) yang berdiri pada tahun 1957.</p>
+          <h3>My Campus</h3>
+          <p>UIN Syarif Hidayatullah Jakarta</p>
         </div>      
       </div>
     
       <div class="item">
         <img src="uin-jakarta3.jpg" alt="Los Angeles" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>UIN Syarif Hidayatullah Jakarta</h3>
-          <p>Hingga pada tahun 2002 resmi menjadi UIN Syarif Hidayatullah Jakarta</p>
+          <h3>My Campus</h3>
+          <p>UIN Syarif Hidayatullah Jakarta</p>
         </div>      
       </div>
     </div>
@@ -224,7 +224,7 @@
 <div id="band" class="container text-center">
   <h3>UIN Syarif Hidayatullah Jakarta</h3>
   <p><em>We love music!</em></p>
-  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Terletak di Kota Tanggerang Selatan. Awalnya merupakan Akademi Dinas Departemen Agama (ADIA) yang berdiri pada tahun 1957.Hingga pada tahun 2002 resmi menjadi UIN Syarif Hidayatullah Jakarta.</p>
   <br>
   <div class="row">
     <div class="col-sm-4">
@@ -262,10 +262,10 @@
     </div>
     <div class="col-sm-4">
       <p class="text-center"><strong>Ruang Kelas</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
+      <a href="#demo4" data-toggle="collapse">
         <img src="kelas.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo2" class="collapse">
+      <div id="demo4" class="collapse">
         <p>Drummer</p>
         <p>Loves drummin'</p>
         <p>Member since 1988</p>
@@ -273,10 +273,10 @@
     </div>
     <div class="col-sm-4">
       <p class="text-center"><strong>Taman</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
+      <a href="#demo5" data-toggle="collapse">
         <img src="gazebo.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo2" class="collapse">
+      <div id="demo5" class="collapse">
         <p>Drummer</p>
         <p>Loves drummin'</p>
         <p>Member since 1988</p>
@@ -284,10 +284,10 @@
     </div>
     <div class="col-sm-4">
       <p class="text-center"><strong>PLT</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
+      <a href="#demo6" data-toggle="collapse">
         <img src="plt.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo2" class="collapse">
+      <div id="demo6" class="collapse">
         <p>Drummer</p>
         <p>Loves drummin'</p>
         <p>Member since 1988</p>
@@ -298,15 +298,13 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
-
+  <h3 class="text-center">My Contact</h3>
   <div class="row">
     <div class="col-md-4">
-      <p>Fan? Drop a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Sumatra Barat, Indonesia</p>
       <p><span class="glyphicon glyphicon-phone"></span>Phone: +6285156106964</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: annisadzakiyyah.hanifah18@mhs.uinjkt.ac.id</p>
+      <p><span class="glyphicon glyphicon-instagram"></span>IG: dzakiyyah_adrion</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: annisadzakiyyah.hanifah18@mhs.uinjkt.ac.id </p>
     </div>
    
   </div>
