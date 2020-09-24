@@ -155,7 +155,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage">Nisa</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -188,7 +188,7 @@
       </div>
 
       <div class="item">
-        <img src="uin-jakarta4.jpg" alt="Chicago" width="1200" height="700">
+        <img src="uin-jakarta3.jpg" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
           <h3>My Campus</h3>
           <p>UIN Syarif Hidayatullah Jakarta</p>
@@ -196,7 +196,7 @@
       </div>
     
       <div class="item">
-        <img src="uin-jakarta3.jpg" alt="Los Angeles" width="1200" height="700">
+        <img src="uin-jakarta4.jpg" alt="Los Angeles" width="1200" height="700">
         <div class="carousel-caption">
           <h3>My Campus</h3>
           <p>UIN Syarif Hidayatullah Jakarta</p>
@@ -228,7 +228,7 @@
         <img src="auditorium.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
-        <p>Audutorium kebanggan UIN Jakarta. Terletak paling depan didekat gerbang utama. Menjadi tempat dilaksanakannya acara-acara penting mulai dari acara kemahasiswaan hingga acara akademik seperti acara wisuda. Semoga kita semua dapat diwisuda di sana setelah pandemi ini berlalu.</p>
+        <p>Audutorium kebanggan UIN Jakarta. Terletak paling depan didekat gerbang utama. Menjadi tempat dilaksanakannya acara-acara penting seperti acara wisuda. Semoga kita semua dapat diwisuda di sana setelah pandemi ini berlalu.</p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -285,7 +285,7 @@
   <h3>My Campus Now</h3>
   <p>Sejak pandemi COVID-19 merebak semua fasilitas yang ada di UIN tidak bisa lagi dimanfaat. Karna, semua kegiatan perkuliahan dilakukan dari jarak jauh sekara daring.</p>
       <img src="sfh.jpeg" class="img-circle person" alt="Random Name" width="255" height="255">
-   <p>Sekarang kegiatan perkuliahan saya semua dilakukan disini saja. Hanya didepan Laptop seharian. Semoga pandemi ini cepat berlalu.</p>
+   <p>Sekarang disinilah kegiatan perkuliahan saya dilakukan. Kelas pindah ke kamar masing-masing. Setiap perkuliahan dilakukan secara daring dan duduk didepan laptop. Mengerjakan tugaspun begitu. Dan tentu saja menghabiskan kuota internet yang cukup besar. Akantetapi, perkuliahan harus tetap dijalankan dengan semangat dan sungguh-sungguh.</p>
 </div>
 
 <!-- Container (Contact Section) -->
