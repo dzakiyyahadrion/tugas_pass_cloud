@@ -283,7 +283,7 @@
 <div id="now" class="container text-center">
   <h3>My Campus Now</h3>
   <p>Sejak pandemi COVID-19 merebak semua fasilitas yang ada di UIN tidak bisa lagi dimanfaat. Karna, semua kegiatan perkuliahan dilakukan dari jarak jauh sekara daring.</p>
-      <img src="sfh.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      <img src="sfh.jpeg" class="img-circle person" alt="Random Name" width="255" height="255">
    <p>Sekarang kegiatan perkuliahan saya semua dilakukan disini saja. Hanya didepan Laptop seharian. Semoga pandemi ini cepat berlalu.</p>
 </div>
 
