@@ -113,7 +113,7 @@
 				<img src="img/uin.png" />
 			</div>
 			<div class = "title">
-				<h1 class="judul">UTS Perancangan dan Pemograman WEB</h1>
+				<h1 class="judul">Latihan PASS Cloud Komputing</h1>
 				<div class="tanggal">
 					<?php
 					$tgl=date('l, d-m-Y');
@@ -129,14 +129,6 @@
 					<hr>
 					<li><a class="link" href="<?php $_SERVER['PHP_SELF']; ?>?op=beratideal">Mengukur Berat Badan Ideal</a></li>
 					<hr>
-					<li><a class="link" href="<?php $_SERVER['PHP_SELF']; ?>?op=cekusia">Kategori Usia Anda</a></li>
-					<hr>
-					<li><a class="link" href="<?php $_SERVER['PHP_SELF']; ?>?op=persegipanjang">Menghitung Persegi Panjang</a></li>
-					<hr>
-					<li><a class="link" href="<?php $_SERVER['PHP_SELF']; ?>?op=segitiga">Menghitung Segitiga</a></li>
-					<hr>
-					<li><a class="link" href="<?php $_SERVER['PHP_SELF']; ?>?op=daftarmahasiswa">Daftar Mahasiswa</a></li>
-					<hr>
 				</ul>
 			</div>
 			<div class = "content">
@@ -149,8 +141,8 @@
 								<h2>UTS Pemograman WEB</h2>
 								<table>
 									<h2>Annisa Dzakiyyahtul Hanifah</h2>
-									<h2>1118091000004</h2>
-									<h2>TI - 3B</h2>
+									<h2>11180910000048</h2>
+									<h2>TI - 2018</h2>
 									<h2>Fakultas Sains dan Teknologi</h2>
 									<h2>UIN Syarif Hidayatullah Jakarta</h2>
 								</table>
@@ -273,214 +265,10 @@
 					</form>
 					<?php
 				}
-				elseif (@$_GET['op']=="cekusia") {
-					?>
-
-					<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>?show=cekusia">
-						<div class="tulisan">
-							<h2><center>MENGHITUNG KATEGORI USIA</center></h2>
-							<font color="white">
-								<table>
-								  <tr><td>Nama Anda</td><td>:</td><td><input type="text" name="nama" size="30"></td></tr>
-								  <tr><td>Umur Anda</td><td>:</td><td><input type="text" name="umr" size="30"></td></tr>
-								</table>
-								<input type="submit" name="submit" value="Submit">
-								<input type="reset" name="reset" value="Hapus">
-							</font> 				
-						</div>
-					</form>
-					<?php
-				}
-				elseif (@$_GET['op']=="persegipanjang") 
-				{
-					?>
-
-					<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>?show=persegipanjang">
-						<div class="tulisan">
-							<h2><center>MENGHITUNG LUAS PERSEGI PANJANG</center></h2>
-							<font color="white">
-								<table>
-								  <tr><td>Panjang (cm)</td><td>:</td><td><input type="text" name="pjg" size="30"></td></tr>
-								  <tr><td>Lebar (kg)</td><td>:</td><td><input type="text" name="lbr" size="30"></td></tr>
-								</table>
-								<input type="submit" name="submit" value="Submit">
-								<input type="reset" name="reset" value="Hapus">	
-							</font>
-						</div>
-					</form>
-					<?php
-				}
-				elseif (@$_GET['op']=="segitiga") {
-					?>
-
-					<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>?show=segitiga">
-						<div class="tulisan">
-							<h2><center>MENGHITUNG LUAS SEGITIGA</center></h2>
-							<font color="white">
-								<table>
-								  <tr><td>Alas (cm)</td><td>:</td><td><input type="text" name="alas" size="30"></td></tr>
-								  <tr><td>Tinggi (kg)</td><td>:</td><td><input type="text" name="tinggi" size="30"></td></tr>
-
-								</table>
-								<input type="submit" name="submit" value="Submit">
-								<input type="reset" name="reset" value="Hapus">
-							</font>
-						</div>
-					</form>
-					<?php
-				}
-				elseif (@$_GET['op']=="daftarmahasiswa") {
-					?>
-
-					<?php
-						$servername = "localhost";
-						$username = "dzakiyyah";
-						$password = "dedek";
-						$dbname = "mahasiswa";
-						$connection = mysqli_connect($servername, $username, $password, $dbname);
-						if (!$connection) {
-							die("Connection Failed:".mysqli_connect_error());
-						}
-						$query = mysqli_query($connection,"SELECT*FROM mahasiswa");
-						?>
-
-						<form action="" method="post">
-							<div class="tulisan">
-								<h2><center>DAFTAR MAHASISWA</center></h2>
-								<font color="black">
-									<center>
-										<table border="1" cellpadding="0" cellspacing="0">
-											<tr>
-												<th>Nama</th>
-												<th>NIM</th>
-												<th>Tempat Lahir</th>
-												<th>Tanggal Lahir</th>
-												<th>Jurusan</th>
-												<th>IPK</th>
-											</tr>
-											<?php 
-												if (mysqli_num_rows($query)>0) {
-												?>
-												<?php
-													$no=1;
-													while ($data=mysqli_fetch_array($query)) {
-														?>
-														<tr>
-															<td><?php echo $data["nama"];?></td>
-															<td><?php echo $data["nim"];?></td>
-															<td><?php echo $data["tempat"];?></td>
-															<td><?php echo $data["tanggal"];?></td>
-															<td><?php echo $data["jurusan"];?></td>
-															<td><?php echo $data["ipk"];?></td>
-														</tr>
-														<?php $no++;
-													} ?>  										
-													<?php 
-												} ?>
-										</table>
-									</font>
-								</div>
-							</center>
-						</form>
-					<?php
-				}
-				if (@$_GET['show']=="pendaftaran") {
-					$tmptlhrAnda = $_POST['tmptlhr'];  // 
-					$tgllhrAnda = $_POST['tgllhr'];  // 
-					$blnlhrAnda = $_POST['blnlhr'];  // 
-					$thnlhrAnda = $_POST['thnlhr'];  //
-					$alamatAnda = $_POST['alamat'];  // membaca input dari komponen alamat
-					$sexAnda = $_POST['sex'];  // membaca input dari komponen sex
-					$sklhAnda = $_POST['sklh'];  // 
-					$uanAnda = $_POST['uan'];  //
-
-
-					echo "Terima Kasih ".$namaAnda." sudah mengisi form pendaftaran </p>";
-					echo "<table>";
-					echo "<tr><td>Nama Lengkap</td><td>:</td><td>".$namaAnda."</td></tr>";
-					echo "<tr><td>Tempat Lahir</td><td>:</td><td>".$tmptlhrAnda."</td></tr>";
-					echo "<tr><td>Tanggal Lahir</td><td>:</td><td>".$tgllhrAnda."</td><td>-</td><td>".$blnlhrAnda."</td><td>-</td><td>".$thnlhrAnda."</td></tr>";
-					echo "<tr><td>Alamat Rumah</td><td>:</td><td>".$alamatAnda."</td></tr>";
-					echo "<tr><td>Jenis Kelamin </td><td>:</td><td>".$sexAnda."</td></tr>";
-					echo "<tr><td>Asal Sekolah</td><td>:</td><td>".$sklhAnda."</td></tr>";
-					echo "<tr><td>Nilai UAN</td><td>:</td><td>".$uanAnda."</td></tr>";
-					echo "</table>";
-				}
-				elseif (@$_GET["show"]=="beratideal") {
-					$namaAnda = $_POST['nama'];  //
-					$tinggiAnda = $_POST['tgi'];  //
-					$beratAnda = $_POST['brt'];  //
-
-					echo "<table>";
-					echo "<tr><td>Nama </td><td>:</td><td>".$namaAnda."</td></tr>";
-					echo "<tr><td>Tinngi Badan</td><td>:</td><td>".$tinggiAnda."</td></tr>";
-					echo "<tr><td>Berat Badan </td><td>:</td><td>".$beratAnda."</td></tr>";
-					echo "</table>";
-
-					$ideal = ($tinggiAnda - 100)-(($tinggiAnda - 100)*0.1);
-
-
-					if ($beratAnda<=$ideal+2 && $beratAnda>=$ideal-2){
-						echo "<h3>Berat Badan Anda Sudah Ideal</h3>";
-					}
-					else {
-						echo "<h3>Berat Badan Anda Belum Ideal<h3>";
-						echo "<tr><td>Berat Badan Ideal yang harus anda miliki </td><td>: </td><td>".$ideal."</td></tr>";
-						echo "<br/>Toleransi +- 2 Kg dari berat badan ideal";
-					}
-				}
-				elseif (@$_GET['show']=="cekusia") {
-					$namaAnda = $_POST['nama'];  //
-					$umurAnda = $_POST['umr'];  //
-
-					echo "<table>";
-					echo "<tr><td>Nama Anda</td><td>:</td><td>".$namaAnda."</td></tr>";
-					echo "<tr><td>Umur Anda</td><td>:</td><td>".$umurAnda."</td></tr>";
-					echo "</table>";
-
-					echo "<h4>Status Usia Anda<h4>";
-					if ($umurAnda <=5 && $umurAnda >0){
-						echo "Balita";
-					}
-					else if ($umurAnda <=16 && $umurAnda >5){
-						echo "Anak-Anak";
-					}
-					else if ($umurAnda <=50 && $umurAnda >16){
-						echo "Dewasa";
-					}
-					else if ($umurAnda >50){
-						echo "Tua";
-					}
-				}
-				elseif (@$_GET['show']=="persegipanjang") {
-					$pjg = $_POST['pjg']; 
-					$lbr = $_POST['lbr']; 
-
-					function luas_segitiga ($pjg,$lbr){
-						$luas = $pjg * $lbr;
-						
-						echo "<p>Panjang Persegi Panjang : <b>".$pjg."</b></p>";
-						echo "<p>Lebar Persegi Panjang : <b>".$lbr."</b></p>";
-						echo "<p>Luas Persegi Panjang : <b>".$luas."</b></p>";
-					}
-						luas_segitiga($pjg,$lbr);
-				}
-				elseif (@$_GET['show']=="segitiga") {
-					$alas = $_POST['alas']; 
-					$tinggi = $_POST['tinggi']; 
-
-					function luas_segitiga ($alas,$tinggi){
-						$luas = $alas * $tinggi/2;
-						echo "<p>Alas Segitiga : <b>".$alas."</b></p>";
-						echo "<p>Tinggi Segitiga : <b>".$tinggi."</b></p>";
-						echo "<p>Luas Segitiga : <b>".$luas."</b></p>";
-					}
-						luas_segitiga($alas,$tinggi);
-				}
 				?>
 			</div>
 			<div class = "footer">
-				<marquee>Selamat Datang di UTS Annisa-048</marquee>
+				<marquee>Selamat Datang </marquee>
 			</div>
 		</div>
 
