@@ -180,7 +180,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="uin-jakarta.jpg" alt="UIN JKT" width="1200" height="700">
+        <img src="uin-jakarta.jpg" alt="UIN JKT" width="1200px" height="700px">
         <div class="carousel-caption">
           <h3>My Campus</h3>
           <p>UIN Syarif Hidayatullah Jakarta</p>
@@ -283,7 +283,7 @@
 <div id="now" class="container text-center">
   <h3>My Campus Now</h3>
   <p>Sejak pandemi COVID-19 merebak semua fasilitas yang ada di UIN tidak bisa lagi dimanfaat. Karna, semua kegiatan perkuliahan dilakukan dari jarak jauh sekara daring.</p>
-      <img src="auditorium.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      <img src="sfh.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
    <p>Sekarang kegiatan perkuliahan saya semua dilakukan disini saja. Hanya didepan Laptop seharian. Semoga pandemi ini cepat berlalu.</p>
 </div>
 
@@ -293,7 +293,6 @@
   <div class="row">
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span>Sumatra Barat, Indonesia</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +6285156106964</p>
       <p><span class="glyphicon glyphicon-ig"></span>IG: <a href="https://www.instagram.com/dzakiyyah_adrion/" data-toggle="tooltip"  title="Visit w3schools">dzakiyyah_adrion</a></p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: annisadzakiyyah.hanifah18@mhs.uinjkt.ac.id </p>
     </div>
