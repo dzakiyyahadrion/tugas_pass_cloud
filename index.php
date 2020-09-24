@@ -187,7 +187,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="uin-jkt.jpg" alt="UIN JKT" width="1200" height="700">
+        <img src="uin-jakarta.jpg" alt="UIN JKT" width="1200" height="700">
         <div class="carousel-caption">
           <h3>UIN Syarif Hidayatullah Jakarta</h3>
           <p>Kampus yang terletak di Tanggerang Selatan</p>
@@ -195,7 +195,7 @@
       </div>
 
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago" width="1200" height="700">
+        <img src="uin-jakarta2.jpg" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
           <h3>Chicago</h3>
           <p>Thank you, Chicago - A night we won't forget.</p>
@@ -203,7 +203,7 @@
       </div>
     
       <div class="item">
-        <img src="la.jpg" alt="Los Angeles" width="1200" height="700">
+        <img src="uin-jakarta3.jpg" alt="Los Angeles" width="1200" height="700">
         <div class="carousel-caption">
           <h3>LA</h3>
           <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
