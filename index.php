@@ -249,7 +249,8 @@
         <p>Cafe Cangkir adalah tempat nongkrong mahasiswa UIN sambil mengisi perut yang lapar di sela-sela perkuliahan. Diberi nama Cafe Cangkir karna bangunan yang berbentuk cangkir.</p>
       </div>
     </div>
-
+    </br>
+    <br>
     <div class="col-sm-4">
       <p class="text-center"><strong>Ruang Kelas</strong></p><br>
       <a href="#demo4" data-toggle="collapse">
@@ -277,6 +278,7 @@
         <p>Pusat Laboratorium Terpadu adalah Lab yang banyak digunakan oleh mahasiswa dari Fakultas Sains dan Teknolog. Dilengkapi dengan fasilitas yang lengkap dalam mendukung perkuliahan.</p>
       </div>
     </div>
+   </br>
   </div>
 </div>
 
